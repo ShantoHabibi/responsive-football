@@ -10,7 +10,7 @@ h1{
     font-size: 64px;
     color: #FFFFFF;
 }
-.top-banner-container{
+.top-banner-containe{
     display: flex;
     padding-left: 156px;
     padding-top: 153px;
@@ -74,9 +74,48 @@ h1{
     height: 474px;
     padding-left: 30px;
     background: #FFFFFF;
+    box-shadow: 10px 10px 40px gray;
 }
 .player img{
     width: 300px;
     height: 256px;
 }
 
+/* --------footer styles ---
+-----------------------------*/
+footer{
+    text-align: center;
+}
+.all-footer{
+    padding-top: 158px;
+
+}
+    
+.logo img{
+    width: 483.87px;
+    height: 110px;
+}
+.fab{
+    margin: 0px 14px;
+    width: 32px;
+}
+/*------- Media Queries-----
+------------------------- */
+/* ------Mobile devices---
+------------------------ */
+@media only screen and (max-width:688px) {
+     .blogs{
+         width: 100%;
+     }
+    .player-blog{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container, .top-banner-containe{
+        flex-direction: column;
+        
+    }
+    
+    
+
+
+}
